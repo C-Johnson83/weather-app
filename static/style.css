@@ -5,11 +5,11 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #434343 0%,#242424 50%, #000000 100%);
+    background-image: linear-gradient(to right, #434343 0%, #242424 50%, #000000 100%);
 }
 
 .container-fluid {
-    
+
     width: 400px;
     margin: 60px auto;
     padding: 10px;
@@ -20,13 +20,13 @@ body {
     text-align: center;
     justify-content: center;
     background: white;
-    border:groove;
+    border: groove;
     border-color: #000000;
     border-radius: 20px;
 }
 
 .inputs input[type="text"] {
-    height: 4rem;
+    height: 3rem;
     width: 20rem;
     background: #000000;
     font-weight: bold;
@@ -42,16 +42,15 @@ body {
 .inputs input[type="submit"] {
     height: 3rem;
     width: 6rem;
-    background: linear-gradient(
-        #4d9f0c,
-#036c00,
-#003b00,
-#000000);
+    background: linear-gradient(#4d9f0c,
+            #036c00,
+            #003b00,
+            #000000);
     font-weight: bold;
     color: white;
     font-size: 1rem;
     margin-top: 20px;
-    border:groove;
+    border: groove;
     border-color: #000000;
     border-radius: 20px;
 }
@@ -60,7 +59,7 @@ body {
     text-align: center;
     width: 400px;
     color: #ffffff;
-    
+
 }
 
 .wrapper {
@@ -68,7 +67,7 @@ body {
     background-color: white;
     height: 45vh;
     margin: 50px auto;
-    border:groove;
+    border: groove;
     border-color: #000000;
     border-radius: 20px;
 }
@@ -76,14 +75,13 @@ body {
 .wrapper h2 {
     padding: 5px 0;
     text-align: center;
-    background: linear-gradient(
-        #4d9f0c,
-#036c00,
-#003b00,
-#000000);
+    background: linear-gradient(#4d9f0c,
+            #036c00,
+            #003b00,
+            #000000);
     color: white;
     font-family: sans-serif;
-    border:groove;
+    border: groove;
     border-color: #000000;
     border-radius: 20px;
 }
@@ -97,7 +95,7 @@ body {
 }
 
 .wrapper h2 span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
 }
 
