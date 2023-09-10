@@ -16,16 +16,18 @@ body {
 }
 
 .inputs {
+    width: 400PX;
     padding: 2rem 0 2rem 0;
     text-align: center;
     justify-content: center;
     background: white;
     border: groove;
     border-color: #000000;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .inputs input[type="text"] {
+    font-variant: small-caps;
     height: 3rem;
     width: 20rem;
     background: #000000;
@@ -75,38 +77,26 @@ body {
 }
 
 .wrapper h2, .wrapper p {
+    height: 50px;
     padding: 5px 0;
     text-align: center;
-    background: linear-gradient(#4d9f0c,
-            #036c00,
-            #003b00,
+    background: linear-gradient(#6dd01c,
+            #1b7a18,
+            #194919,
             #000000);
     color: white;
     font-family: sans-serif;
     border: groove;
     border-color: #000000;
-    /* border-radius: 20px; */
+   
 }
-
-/* .wrapper p {
-    margin: 20px 50px;
-    margin-right: 20px;
-    text-align: left;
-    color: #000000;
-    font-size: 23px;
-    background: linear-gradient(#4d9f0c,
-    #036c00,
-    #003b00,
-    #000000);
-} */
-
 .wrapper h2 span {
-    font-size: 1.5rem;
+    font-size: 110%;
     color: #ffffff;
 }
 
 .wrapper p span {
     color: #003b00;
-    font-size: 25px;
+    font-size: 110%;
     color: #ffffff;
 }
